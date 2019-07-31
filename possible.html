@@ -61,7 +61,7 @@
         <!-- Hero panel -->
         <div class="grid-y medium-grid-frame">
             <div id="hero" class="cell header medium-cell-block-container wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
-                <h1 class="hero-h1">A. What is possible?</h1>
+                <h1 class="hero-h1">A. What is techincally possible?</h1>
                 <div id="credits">
                     <div class="grid-x">
                         <div class="cell small-4 medium-4 large-12">
@@ -92,7 +92,78 @@
                             <h2 class="section-header">Within 1 year</h2>
                             <h3>Summary Care Record application (SCRa)</h3>
                             <br />
-                            <p>Table here</p>
+                            <p>Data currently held or planned within SCRa:</p>
+                            <table class="unstriped hover">
+                                <thead>
+                                    <tr>
+                                        <th>Category</th>
+                                        <th>Data items</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>SCR - Current Repeat Medication</td>
+                                        <td>Type<br />
+                                            Date<br />
+                                            Medication Item<br />
+                                            Dosage Instructions<br />
+                                            Quantity<br />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>SCR - Discontinued Medication</td>
+                                        <td>Type<br />
+                                            Date From<br />
+                                            Date To<br />
+                                            Medication Item<br />
+                                            Dosage Instructions<br />
+                                            Quantity<br />
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>SCR - Acute Meds</td>
+                                        <td>12 Month Period<br />
+                                            Type<br />
+                                            Date (inc. entry type)<br />
+                                            Medication Item<br />
+                                            Dosage Instructions<br />
+                                            Quantity
+                                            <br />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>SCR - Additional information</td>
+                                        <td>Diagnosis<br />
+                                            Problem / Issue<br />
+                                            Treatment<br />
+                                            Care Professional Doc<br />
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>National Record Locator (NRL)</td>
+                                        <td>Mental Health crisis plans (Viewing and Retrieval)
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Reasonable Adjustments (RA)</td>
+                                        <td>An impairment<br />
+                                            An adjustment for this impairment
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>GP Connect</td>
+                                        <td>Appointments<br />
+                                            Outcomes
+
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
                             <br />
                             <p>SCRa is expanding its data and will at some point include GP Connect and NRL retrieval. They are currently seeking input from current and future users of the system to inform it’s roadmap. This could prove to be a good opportunity for DWP to influence NHS strategy. </p>
 
@@ -100,7 +171,13 @@
 
                             <p>DWP would require to also onboard to NHS identity or look at reuse of the DS1500 technology built in DD/MM/YYYY.
                             </p>
+                            <br />
+                            <h4>Technical architecture</h4>
+                            <img src="img/scra-arc.png">
 
+                            <br /><br />
+                            <h4>Possible service design</h4>
+                            <img src="img/UJ1.png">
 
                         </div>
                     </div>
@@ -122,14 +199,56 @@
                             <h2 class="section-header">Within 2 years</h2>
                             <h3>GP Connect</h3>
                             <br />
-                            <p>Table here</p>
+                            <p>Data currently held within GP Connect:</p>
+                            <table class="unstriped hover">
+                                <thead>
+                                    <tr>
+                                        <th>Data item</th>
+                                        <th>Explanation</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Care Plan</td>
+                                        <td>A healthcare plan for an individual
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Condition</td>
+                                        <td>Detail of a patient's condition, problems or diagnosis
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dosage</td>
+                                        <td>Medication dosage
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Medication</td>
+                                        <td>Purpose of prescribed medication
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Medication Statement</td>
+                                        <td>Drug prescribed to patient
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
                             <br />
                             <p>To access this system DWP would need to engage NHS England & NHS X to agree a data sharing agreement, carry out a data protection impact assessment and appoint a clinical safety officer who can assure the system is safe to use.
                             </p>
 
                             <p>DWP would also require to onboard to Spine Mini Service Provider (SMSP) to enable access to GP Connect.</p>
-
-
+                            <br />
+                            <h4>Technical architecture</h4>
+                            <img src="img/arc-2.png">
+                            <br /><br />
+                            <h4>Possible service design</h4>
+                            <img src="img/UJ2.png">
 
 
                         </div>
@@ -151,10 +270,27 @@
                             <h2 class="section-header">Within 5 years</h2>
                             <h3>National Record Locator (NRL)</h3>
                             <br />
-                            <p>Table here</p>
-                            <br />
-                            <p>The NRL can help get access to mental healthcare plans that exist outside of primary care (GP’s and Hospitals) that may not have been shared.
+                            <p>Data currently held within GP Connect:</p>
+                            <table class="unstriped hover">
+                                <thead>
+                                    <tr>
+                                        <th>Data item</th>
+                                        <th>Explanation</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Care Plan</td>
+                                        <td>An individual's mental healthcare only
+                                        </td>
+                                    </tr>
 
+
+                                </tbody>
+                            </table>
+                            <br />
+                            <p>The NRL can help get access to mental healthcare plans that exist outside of primary care (GP’s and Hospitals) that may not have been shared.</p>
+                            <p>
                                 To access this system DWP would need to complete an assessment. The assessment will look at a range of criteria including technical conformance, data protection, security, clinical safety, benefits measurement, business process review and updates and service operations.
 
                             </p>
@@ -169,8 +305,13 @@
 
                             </p>
 
+                            <br />
+                            <h4>Technical architecture</h4>
+                            <img src="img/arc-4.png">
 
-
+                            <br /><br />
+                            <h4>Possible service design</h4>
+                            <img src="img/UJ3.png">
 
 
                         </div>
