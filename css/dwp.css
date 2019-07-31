@@ -1,0 +1,118 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: -1px;
+}
+
+.hero-h1 {
+    font-size: 4vmax;
+    font-weight: 900;
+}
+
+#hero {
+    padding-top: 15vmax;
+
+}
+
+.hero-subheader {
+    font-size: 2vmax;
+    font-weight: 500;
+}
+
+#credits {
+    text-align: left;
+    margin-top: 2vmax;
+    border-top: 5px solid #01161e;
+    padding-top: 3vmax;
+    padding-bottom: 3vmax;
+}
+
+.big-number {
+    text-align: right;
+    font-size: 4vmax;
+    padding-right: 1vmax;
+    font-weight: 900;
+    border-right: 5px solid #01161e;
+}
+
+.homepage-section {
+    padding-left: 1vmax;
+}
+
+.section-header {
+    font-size: 4vmax;
+    font-weight: 900;
+    margin-bottom: 3vmax;
+    line-height: 1.5;
+}
+
+.toc-header {
+    border-bottom: 1px solid #01161e;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.overview-menu {
+    list-style-type: circle;
+    list-style-position: outside;
+    margin-left: 1vmax;
+}
+
+#approach-panels,
+#what-we-did-panels {
+    margin-top: 3vmax;
+}
+
+.approach-panel {
+    background: #dcdcdc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.what-we-did-panel {
+    background: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.user-panel {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.what-we-did-number {
+    font-size: 7vmax;
+    letter-spacing: -3px;
+}
+
+.user-avatar {
+    margin-bottom: 10px;
+}
+
+.user-avatar-name {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.marbot {
+    margin-bottom: 10vmax;
+}
