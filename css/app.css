@@ -18,3 +18,33 @@
   opacity: 0.5;
   transition: margin 0.3s ease-in-out;
 }
+
+.btn.btn--purple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 2px solid #7c61a0;
+  color: #ffffff;
+  background: #8467ad;
+  padding: 1rem 0;
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+
+.btn.btn--purple:after {
+  content: '';
+  width: 12px;
+  height: 20px;
+  background: url("data:image/svg+xml,%3Csvg width='27' height='42' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.907 4.953L16.984 21 .907 37.047 5.868 42l21.039-21L5.868 0z' fill='%23FFF' fill-rule='nonzero'/%3E%3C/svg%3E");
+  background-size: cover;
+  display: inline-block;
+  margin-left: 15px;
+  transform: translateX(750%);
+  transition: all 0.3s ease-in-out;
+  fill: #ffffff;
+}
+
+.btn.btn--purple:hover:after {
+  transform: translateX(0);
+}
