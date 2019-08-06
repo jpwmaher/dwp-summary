@@ -1,8 +1,12 @@
-#toc a:hover {
+.btn.btn--underline {
   text-decoration: underline !important;
 }
 
-#toc a:after {
+.btn.btn--arrow {
+  text-decoration: underline !important;
+}
+
+.btn.btn--arrow:after {
   content: '';
   width: 12px;
   height: 10px;
